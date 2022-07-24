@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Varela+Round&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <script src="./script.js" type="text/javascript" async></script>
+    </head>
+    <body>
+        <div id="popup-start" class="popup">
+            <div class="popup-container">
+                <div class="popup-content">
+                    <div id="finmess">
+                        <h1>Welcome to Sheep Herder</h1>
+                        <p>Use your mouse or arrow keys to drag the sheep-herding dog left to right. Don't let too many sheep by!</p>
+                    </div>
+                        <a class="button" id="game-start">Start the Game!</a>
+                </div>
+            </div>
+        </div>
+        <div id="popup-end" class="popup">
+            <div class="popup-container">
+                <div class="popup-content">
+                    <div id="finmess">
+                        <h1>You let too many sheep by!</h1>
+                    </div>
+                        <a class="button" id="game-restart">Start Over</a>
+                </div>
+            </div>
+        </div>
+        <div class="game">
+            <div class="header">
+                <div class="buttons">
+                    <a class="button" id="game">Start Game</a>
+                </div>
+                <div class="counter" id="counter">
+                    You have let 0 sheep by.
+                </div>
+            </div>
+            <div class="game-container" id="game-container">
+                <img src="./assets/dog.png" class="dog" id="dog">
+            </div>    
+        </div>
+    </body>
+</html>
